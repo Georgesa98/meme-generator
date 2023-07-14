@@ -1,0 +1,129 @@
+*{
+  box-sizing: border-box;
+}
+li{
+  list-style: none;
+}
+.container{
+  width: 550px;
+  height: fit-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid 2px black;
+}
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #672280 0%, #A626D3 100%);
+  font-family: 'Karla', sans-serif;
+  color: white;
+  height: 65px;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #FFF;
+  font-family: Karla;
+  font-size: 20.748px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -2.075px;
+}
+.info{
+  margin-right: 37px;
+  color: #FFF;
+  text-align: right;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.form-container{
+  display: flex;
+  justify-content: center;
+}
+.form-container > label{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-top: 36px;
+  justify-items: center;
+  width: 477px;
+  margin-bottom: 36px;
+}
+.meme-container{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+.img-container{
+  max-width: 100%;
+  padding-left: 36px;
+  padding-right: 37px;
+  position: relative;
+}
+.text-img-container{
+  position: relative;
+  text-align: center;
+  color: #FFF;
+  font-family: Impact;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  -webkit-text-stroke: 2px black;
+}
+#logo-img{
+  margin-left: 20px;
+  margin-right: 5px;
+}
+#form-1{
+  width: 230px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+}
+#form-2{
+  width: 230px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  justify-self: end;
+}
+#btn{
+  grid-column: 1 / 3;
+  margin-top: 15px;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #711F8D 0%, #A818DA 100%);
+  width: 477px;
+  height: 40px;
+  color: white;
+  color: #FFF;
+  text-align: center;
+  font-family: Karla;
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -1.6px;
+  
+}
+#top-text{
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+#bottom-text{
+  position: absolute;
+  left: 50%;
+  bottom: 16px;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
