@@ -30,7 +30,6 @@ function Meme() {
        return (
         <div className="meme-container">
         <div className="form-container">
-            <label>
                 <input 
                         type="text" 
                         name="topText" 
@@ -48,7 +47,6 @@ function Meme() {
                         onChange={handleChange} 
                         />
                 <button onClick={clickHandler} id="btn">Get a new meme image🖼</button>
-            </label>
         </div>
         <div className="text-img-container">
             <div id="top-text">{meme.topText}</div>
